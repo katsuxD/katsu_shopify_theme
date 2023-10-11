@@ -3,7 +3,8 @@
         <a href="{{ product_product.url }}">
             {% if product_product.featured_image %}
             <div class="h-80 overflow-hidden">
-                <img class="w-full h-full object-cover transition duration-1000 ease-in-out hover:scale-105 transform" src="{{ product_product.featured_image | img_url: 'medium'}}"
+                <img class="w-full h-full object-cover transition duration-1000 ease-in-out hover:scale-105 transform"
+                    src="{{ product_product.featured_image | img_url: 'medium'}}"
                     alt="{{ product_product.featured_image.alt }}">
             </div>
             {% else %}
@@ -14,7 +15,8 @@
         </a>
         <div class="flex flex-col p-4">
             <span class="text-sm text-grey-400">{{product_product.vendor}}</span>
-            <a class="text-gray-700 uppercase font-medium" href="{{ product_product.url }}"> {{product_product.title}}</a>
+            <a class="text-gray-700 uppercase font-medium" href="{{ product_product.url }}">
+                {{product_product.title}}</a>
             <p class="text-gray-500">{{product_product.price | money}}</p>
         </div>
     </div>
