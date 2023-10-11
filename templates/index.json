@@ -3,6 +3,7 @@
     "hero": {
       "type": "hero",
       "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-pixabay-267391.jpg",
         "title": "Welcome To Katsu Store",
         "description": "<p>We are happy to welcome you to our official store<\/p>",
         "button_label": "Learn more",
