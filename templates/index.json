@@ -3,9 +3,9 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "image": "",
-        "title": "Welcome To Elena",
-        "description": "<p>We are happy to welcome you to our official store</p>",
+        "image": "shopify:\/\/shop_images\/Blog-Jim-Fahad-Digital-2.webp",
+        "title": "Welcome To Katsu Store",
+        "description": "<p>We are happy to welcome you to our official store<\/p>",
         "button_label": "Learn more",
         "button_link": "https:\/\/google.com\/"
       }
