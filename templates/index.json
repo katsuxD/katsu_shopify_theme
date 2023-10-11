@@ -3,7 +3,6 @@
     "hero": {
       "type": "hero",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Blog-Jim-Fahad-Digital-3.webp",
         "title": "Welcome To Katsu Store",
         "description": "<p>We are happy to welcome you to our official store<\/p>",
         "button_label": "Learn more",
